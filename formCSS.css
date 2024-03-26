@@ -27,6 +27,20 @@ h1 {
     color: #c7505a;
 }
 
+input[type="text"]:focus,
+textarea:focus,
+select:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: #c7505a; /* Set border color for focus state */
+}
+
+input[type="int"]:focus,
+textarea:focus,
+select:focus {
+    outline: none; 
+    border-color: #c7505a; 
+}
+
 /* Formatting message area + removal of resize option in browser */
 textarea[name="message"] {
     resize: none;

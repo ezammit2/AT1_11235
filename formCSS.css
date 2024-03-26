@@ -19,3 +19,10 @@ form {
     box-sizing: border-box; /* Ensure consistent box-sizing */
 }
 
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    color: #c7505a;
+}

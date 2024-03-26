@@ -26,3 +26,19 @@ h1 {
     text-align: center;
     color: #c7505a;
 }
+
+div {
+    margin-bottom: 0.8rem; /* Add spacing between divs */
+}
+
+/* Formatting text input boxes (Full name, email etc) */
+input, select, textarea {
+    width: calc(100% - 6px); /* Adjust width to account for border */
+    height: 26px;
+    margin-top: 0.3rem;
+    border: 2.5px solid #c7505a;
+    resize: none;
+    display: block; /* Ensure each input is on a new line */
+    box-sizing: border-box; /* Ensure consistent box-sizing */
+    border-radius: 5px;
+}

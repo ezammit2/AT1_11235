@@ -27,10 +27,3 @@ h1 {
     color: #c7505a;
 }
 
-/* Formatting message area + removal of resize option in browser */
-textarea[name="message"] {
-    resize: none;
-    height: 100px;
-    font-family: inherit;
-    border-radius: 5px;
-}

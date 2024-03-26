@@ -4,3 +4,18 @@ body{
     box-sizing: border-box;
     overflow: hidden;
 }
+
+/* Form Layout */
+form {
+    background: #f7e2ea;;;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 10rem auto;
+    padding: 10px 15px;
+    position: relative;
+    width: 550px;
+    font-size: 14px;
+    line-height: 1rem;
+    text-align: left; /* Left align the content */
+    box-sizing: border-box; /* Ensure consistent box-sizing */
+}
+

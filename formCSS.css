@@ -27,6 +27,10 @@ h1 {
     color: #c7505a;
 }
 
+div {
+    margin-bottom: 0.8rem; /* Add spacing between divs */
+}
+
 input[type="text"]:focus,
 textarea:focus,
 select:focus {
